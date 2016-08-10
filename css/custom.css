@@ -1,0 +1,61 @@
+/*.iphonebadge {*/
+    /*border-radius:50px;*/
+    /*-moz-border-radius:50px;*/
+    /*-webkit-border-radius:50px;*/
+    /*background:black;*/
+    /*color:#868686;*/
+    /*border:.1px #868686 solid;*/
+    /*background-color: rgba(176, 176, 176, 0);*/
+    /*background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(176, 176, 176, 0)), to(rgba(0, 0, 0, 0.71))); /!* Saf4+, Chrome *!/*/
+    /*background-image: -webkit-linear-gradient(top, rgba(176, 176, 176, 0), rgba(0, 0, 0, 0.71)); /!* Chrome 10+, Saf5.1+, iOS 5+ *!/*/
+    /*background-image: -moz-linear-gradient(top, rgba(176, 176, 176, 0), rgba(0, 0, 0, 0.71)); /!* FF3.6 *!/*/
+    /*background-image: -ms-linear-gradient(top, rgba(176, 176, 176, 0), rgba(0, 0, 0, 0.71)); /!* IE10 *!/*/
+    /*background-image: -o-linear-gradient(top, rgba(176, 176, 176, 0), rgba(0, 0, 0, 0.71)); /!* Opera 11.10+ *!/*/
+    /*background-image: linear-gradient(top, rgba(176, 176, 176, 0), rgba(0, 0, 0, 0.71));*/
+    /*filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#e7676d', EndColorStr='#b7070a');*/
+    /*-webkit-box-shadow: 0px 2px 4px #000000; /!* Saf3-4 *!/*/
+    /*-moz-box-shadow: 0px 2px 4px #000000; /!* FF3.5 - 3.6 *!/*/
+    /*box-shadow: 0px 2px 4px #000000; /!* Opera 10.5, IE9, FF4+, Chrome 10+ *!/*/
+    /*display:inline-block;*/
+    /*padding:2px 2px 2px 2px ;*/
+    /*margin:3px;*/
+    /*font-family:arial;*/
+    /*font-weight:bold;*/
+/*}*/
+.iphonebadge {
+    border-radius:50px;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    border:.2px rgba(0, 0, 0, 0.75) solid;
+
+    -webkit-box-shadow:3px 3px 3px 3px rgba(0, 0, 0, 0.33); /* Saf3-4 */
+    -moz-box-shadow:3px 3px 3px 3px rgba(0, 0, 0, 0.33); /* FF3.5 - 3.6 */
+    box-shadow:0 0 30px 3px rgba(0, 0, 0, 0.75); /* Opera 10.5, IE9, FF4+, Chrome 10+ */
+    display:inline-block;
+    margin:3px;
+    font-family:arial;
+    font-weight:bold;
+}
+
+.name-title{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 56px;
+    position: relative;
+    text-align: center;
+    /*text-shadow: 0 0 10px rgba(0, 0, 0, 0.33);*/
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.33);
+    margin-top: 150px;
+    z-index: 3;
+}
+
+.center-profile-pic{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.coming-soon-social li{
+    display:inline-block;
+}
