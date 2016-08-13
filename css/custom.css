@@ -60,6 +60,7 @@
     display:inline-block;
 }
 
-.content {
+.context {
+    position: relative;
     text-align: center;
 }
