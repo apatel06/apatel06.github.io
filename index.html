@@ -28,11 +28,7 @@
 <body>
 <div class="main" style="background-image: url('images/default.jpg')">
 
-    <div class="cover black" data-color="black"></div>
-
     <div class="container center-block">
-
-
         <h1 class="logo name-title">
             <img class="center-profile-pic iphonebadge" src="images/apatel.jpg">
             Anand Patel
@@ -53,25 +49,24 @@
         </h1>
 
         <div class="content">
-            <h4 class="motto" style="text-shadow: 4px 4px 4px 10px rgba(0,0,0,.33)">Site currently under construction.</h4>
-            <button class="btn btn-primary">Learn More</button>
+            <h4 class="motto" style="text-shadow: 4px 4px 4px 10px rgba(0,0,0,.33)">Site is currently under construction.</h4>
+            <button id="learnMore" class="btn btn-primary" onclick="showDiv()">Learn More</button>
         </div>
-    </div>
+
+        <div id="resume" style="display: none;">
+                <object style="width: 100%;position:relative;" height="1000" data="docs/Anand_Patel_Resume.pdf" type="application/pdf">
+                </object>
+    	</div>
     <div class="footer">
     </div>
 </div>
 
-<!--<div class="home">-->
-<!--<header>-->
-<!--        <div id="menu">-->
-<!--            <button id="menu-home" class="menu-button-selected" title="Home" onclick="menu('home');">Home</button>-->
-<!--            <button id="menu-projects" class="menu-button" title="Projects" onclick="menu('projects');">Projects</button>-->
-<!--            <button id="menu-work" class="menu-button" title="Work" onclick="menu('work');">Work</button>-->
-<!--            <button id="menu-about" class="menu-button" title="About" onclick="menu('about');">About</button>-->
-<!--            <button id="menu-contact" class="menu-button" title="Contact" onclick="menu('contact');">Contact</button>-->
-<!--        </div>-->
-<!--    </header>-->
-<!--</div>-->
+<script type="text/javascript">
+    function showDiv() {
+	   document.getElementById('resume').style.display = "block";
+	}
+</script>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js" integrity="sha384-ux8v3A6CPtOTqOzMKiuo3d/DomGaaClxFYdCu2HPMBEkf6x2xiDyJ7gkXU0MWwaD" crossorigin="anonymous"></script>
